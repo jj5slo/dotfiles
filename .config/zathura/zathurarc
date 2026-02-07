@@ -1,0 +1,4 @@
+set window-height 1500
+set window-width  2400
+set pages-per-row 2
+set first-page-column 1:1

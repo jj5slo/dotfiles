@@ -19,10 +19,10 @@ inoremap <Up>   <C-O>gk
 
 " ==== セッション復元 ====
 " Vim終了時に現在のセッションを保存する
-au VimLeave * mks!  ~/.vimsession
+au VimLeave * mks!  ~/.config/nvim/.nvimsession
 
 " 引数なし起動の時、前回のsessionを復元
-autocmd VimEnter * nested if @% == '' && s:GetBufByte() == 0 | source ~/.vimsession | endif
+autocmd VimEnter * nested if @% == '' && s:GetBufByte() == 0 | source ~/.config/nvim/.nvimsession | endif
 function! s:GetBufByte()
     let byte = line2byte(line('$') + 1)
     if byte == -1

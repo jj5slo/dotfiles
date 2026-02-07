@@ -7,6 +7,8 @@ unset autologout
 set history = (1000 "%h, %Y/%W/%D %T: %R\n")
 set savehist=1000
 
+#alias sl 'ls'
+
 alias ls 'ls -aF --color=auto'
 alias less 'less -X'
 
