@@ -8,6 +8,8 @@ set cursorline
 highlight CursorLine cterm=underline ctermfg=NONE ctermbg=NONE
 highlight CursorLine gui=underline guifg=NONE guibg=NONE
 
+set mouse=a
+
 nnoremap j gj
 nnoremap k gk
 nnoremap <Down> gj

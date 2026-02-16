@@ -7,6 +7,9 @@ unset autologout
 set history = (1000 "%h, %Y/%W/%D %T: %R\n")
 set savehist=1000
 
+bindkey -k up history-search-backward
+bindkey -k down history-search-forward
+
 #alias sl 'ls'
 
 alias ls 'ls -abF --color=auto'
