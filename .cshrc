@@ -24,6 +24,8 @@ alias rmdir 'rmdir -v'
 
 alias quit 'exit'
 
+alias py 'python3'
+
 alias librstart 'sudo systemctl start libradtran-interface'
 alias librstop  'sudo systemctl stop libradtran-interface'
 alias journal   'sudo journalctl -fu libradtran-interface'
