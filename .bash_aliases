@@ -7,5 +7,6 @@ alias mv='mv -iv'
 
 alias rename='rename -v'
 alias rmdir='rmdir -v'
+alias tar='tar -k'
 
 alias quit='exit'

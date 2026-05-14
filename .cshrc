@@ -21,11 +21,16 @@ alias mv 'mv -iv'
 
 alias rename 'rename -v'
 alias rmdir 'rmdir -v'
+alias tar 'tar -k'
 
 alias quit 'exit'
 
 alias py 'python3'
 
+alias fix_display 'setenv DISPLAY `tmux show-env | grep "^DISPLAY" | cut -d= -f2`; unsetenv XAUTHORITY'
+
 alias librstart 'sudo systemctl start libradtran-interface'
 alias librstop  'sudo systemctl stop libradtran-interface'
 alias journal   'sudo journalctl -fu libradtran-interface'
+
+set path = ($home/.local/bin $path)
